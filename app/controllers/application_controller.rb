@@ -7,7 +7,7 @@ class ApplicationController < Sinatra::Base
 
     # returns all the users
   get "/" do 
-    all_users = User.all
+    all_users = Pet.all
     all_users.to_json
   end
   
